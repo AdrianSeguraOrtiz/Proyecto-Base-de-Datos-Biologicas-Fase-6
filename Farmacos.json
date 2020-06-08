@@ -1,0 +1,866 @@
+[
+	{
+		"_id" : 600000,
+		"nombreMed" : "Amoxicilnica Clav",
+		"viaAdministracion" : "Intravenosa",
+		"presentacion" : "Viales",
+		"formato" : "500/50mg x100 viales",
+		"claseMedicamento" : "Antibiotico sistemico",
+		"indicaciones" : "Tratar ciertas infecciones",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 8.24,
+		"principiosActivos": [
+			{"nombrePA" : "Acido clavulanico", "pesoMolecular" : 199.16, "formulaMolecular" : "C8 H9 N O5"},
+			{"nombrePA" : "Amoxicilina", "pesoMolecular" : 365.4, "formulaMolecular" : "C16 H19 N3 O5 S"}
+		]
+	},
+	{
+		"_id" : 603029,
+		"nombreMed" : "Zaldiar",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "37.5/325mg x100 comp",
+		"claseMedicamento" : "Analgesico",
+		"indicaciones" : "Aliviar el dolor",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 3.34,
+		"principiosActivos": [
+			{"nombrePA" : "Paracetamol", "pesoMolecular" : 151.16, "formulaMolecular" : "C8 H9 N O2"},
+			{"nombrePA" : "Tramadol", "pesoMolecular" : 263.38, "formulaMolecular" : "C16 H25 N O2"}
+		]
+	},
+	{
+		"_id": 603173,
+		"nombreMed": "Parapres Forte",
+		"viaAdministracion": "Oral",
+		"presentacion": "Comprimidos",
+		"formato": "32/25 mg 300 comp",
+		"claseMedicamento": "Diuretico y Antihipertensivo",
+		"indicaciones": "Aumenta la cantidad de orina , ayudando a regular la presion sanguinea",
+		"comercializacion": 1,
+		"prescripcionMedica": 1,
+		"pvp": 20.95,
+		"principiosActivos": [
+			{"nombrePA": "Candesartan", "pesoMolecular": 440.5, "formulaMolecular": "C24 H20 N6 O3"},
+			{"nombrePA": "Hidroclorotiazida", "pesoMolecular": 297.7,	"formulaMolecular": "C7 H8 Cl N3 O4 S2"}
+		]
+	},
+	{
+		"_id" : 604306,
+		"nombreMed" : "Nolotil",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Ampollas",
+		"formato" : "5ml x 100 ampollas",
+		"claseMedicamento" : "Analgesico y Antipiretico",
+		"indicaciones" : "Disminuye el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 2.14,
+		"principiosActivos": [
+			{"nombrePA" : "Metamizol", "pesoMolecular" : 311.36, "formulaMolecular" : "C13 H17 N3 O4 S"}
+		]
+	},
+	{
+		"_id" : 609909,
+		"nombreMed" : "Blastoestimulina",
+		"viaAdministracion" : "Topica",
+		"presentacion" : "Pomada",
+		"formato" : "150g",
+		"claseMedicamento" : "Cicatrizante",
+		"indicaciones" : "Favorece la cicatrizacion de las heridas",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 10.33,
+		"principiosActivos": [
+			{"nombrePA" : "Centella",	"pesoMolecular" : 76.09, "formulaMolecular" : "C3 H8 O2"},
+			{"nombrePA" : "Neomicina", "pesoMolecular" : 614.644, "formulaMolecular" : "C23 H46 N6 O13"}
+		]
+	},
+	{
+		"_id" : 619510,
+		"nombreMed" : "Cristalmina",
+		"viaAdministracion" : "Topica",
+		"presentacion" : "Solucion topica",
+		"formato" : "125 ml x 30 frascos",
+		"claseMedicamento" : "Antiseptico",
+		"indicaciones" : "Prevenir y tratar infecciones de la piel y heridas",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 10.75,
+		"principiosActivos": [
+			{"nombrePA" : "Clorhexidina", "pesoMolecular" : 505.447, "formulaMolecular" : "C22 H30 N10 Cl2"}
+		]
+	},
+	{
+		"_id" : 650097,
+		"nombreMed" : "Dolviran",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "20 comp",
+		"claseMedicamento" : "Analgesico, Antiinflamatrio, Antipiretico",
+		"indicaciones" : "Disminuye el dolor, la inflamacion y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 1.74,
+		"principiosActivos": [
+			{"nombrePA" : "Acido acetilsalicilico", "pesoMolecular" : 180.16, "formulaMolecular" : "C9 H8 O4"},
+			{"nombrePA" : "Cafeina", "pesoMolecular" : 194.19, "formulaMolecular" : "C8 H10 N4 O2"},
+			{"nombrePA" : "Codeina", "pesoMolecular" : 299.364, "formulaMolecular" : "C18 H21 N O3"}
+		]
+	},
+	{
+		"_id" : 650427,
+		"nombreMed" : "Acetilcisteina",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "30 sobres",
+		"claseMedicamento" : "Expectorante y/o Mucolitico",
+		"indicaciones" : "Facilita la expulsion de moco desde las vias respiratorias",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 5.15,
+		"principiosActivos": [
+			{"nombrePA" : "Acetilcisteina", "pesoMolecular" : 163.2, "formulaMolecular" : "C5 H9 N O3 S"}
+		]
+	},
+	{
+		"_id" : 650902,
+		"nombreMed" : "Anticatarral",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "20 sobres",
+		"claseMedicamento" : "Antigripal, Analgesico y Antipiretico",
+		"indicaciones" : "Aliviar la gripe, disminuir el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 9.99,
+		"principiosActivos": [
+			{"nombrePA" : "Clorfenamina",	"pesoMolecular" : 274.79, "formulaMolecular" : "C16 H19 Cl N2"},
+			{"nombrePA" : "Fenilefrina", "pesoMolecular" : 167.2, "formulaMolecular" : "C9 H13 N O2"},
+			{"nombrePA" : "Paracetamol", "pesoMolecular" : 151.16, "formulaMolecular" : "C8 H9 N O2"}
+		]
+	},
+	{
+		"_id" : 650999,
+		"nombreMed" : "Co Vals Forte",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "160/25 mg 28 comp",
+		"claseMedicamento" : "Diuretico y Antihipertensivo",
+		"indicaciones" : "Aumenta la cantidad de orina , ayudando a regular la presion sanguinea",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 11.99,
+		"principiosActivos": [
+			{"nombrePA" : "Hidroclorotiazida", "pesoMolecular" : 297.7, "formulaMolecular" : "C7 H8 Cl N3 O4 S2"},
+			{"nombrePA" : "Valsartan", "pesoMolecular" : 435.5, "formulaMolecular" : "C24 H29 N5 O3"}
+		]
+	},
+	{
+		"_id" : 651877,
+		"nombreMed" : "Aspirina C",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos efervescentes",
+		"formato" : "(400 mg / 240 mg) x 20 comp",
+		"claseMedicamento" : "Analgesico, Antiinflamatorio y Antipiretico",
+		"indicaciones" : "Disminuye el dolor, la inflamacion y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 5.36,
+		"principiosActivos": [
+			{"nombrePA" : "Acido acetilsalicilico", "pesoMolecular" : 180.16, "formulaMolecular" : "C9 H8 O4"},
+			{"nombrePA" : "Acido ascorbico", "pesoMolecular" : 176.12, "formulaMolecular" : "C6 H8 O6"}
+		]
+	},
+	{
+		"_id" : 651943,
+		"nombreMed" : "Flodermol",
+		"viaAdministracion" : "Topica",
+		"presentacion" : "Pomada",
+		"formato" : "Pomada 60 g",
+		"claseMedicamento" : "Corticoide topico y antiinfeccioso",
+		"indicaciones" : "Tratar las inflamaciones de la piel y para combatir las infecciones",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 12.3,
+		"principiosActivos": [
+			{"nombrePA" : "Fluocinolona", "pesoMolecular" : 452.488, "formulaMolecular" : "C24 H30 F2 O6"},
+			{"nombrePA" : "Gramicidina", "pesoMolecular" : 452.488, "formulaMolecular" : "C99 H140 N20 O17"},
+			{"nombrePA" : "Neomicina", "pesoMolecular" : 614.644, "formulaMolecular" : "C23 H46 N6 O13"}
+		]
+	},
+	{
+		"_id" : 652319,
+		"nombreMed" : "Aciclovir",
+		"viaAdministracion" : "Topica",
+		"presentacion" : "Crema",
+		"formato" : "Crema 15 g",
+		"claseMedicamento" : "Antiviral topico",
+		"indicaciones" : "Tratar infecciones producidas por virus",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 3.43,
+		"principiosActivos": [
+			{"nombrePA" : "Aciclovir", "pesoMolecular" : 225.2, "formulaMolecular" : "C8 H11 N5 O3"}
+		]
+	},
+	{
+		"_id" : 653899,
+		"nombreMed" : "Bucometasana",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "30 comp",
+		"claseMedicamento" : "Antiinfeccioso faringeo",
+		"indicaciones" : "Tratar infecciones de la garganta",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 7.35,
+		"principiosActivos": [
+			{"nombrePA" : "Benzocaina", "pesoMolecular" : 165.19, "formulaMolecular" : "C9 H11 N O2"},
+			{"nombrePA" : "Clorhexidina", "pesoMolecular" : 505.447, "formulaMolecular" : "C22 H30 N10 Cl2"},
+			{"nombrePA" : "Tirotricina", "pesoMolecular" : 1228.46, "formulaMolecular" : "C65 H85 N11 O13"}
+		]
+	},
+	{
+		"_id" : 654139,
+		"nombreMed" : "OpenVas Plus",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos recubiertos",
+		"formato" : "20/25 mg 28 comp",
+		"claseMedicamento" : "Diuretico y Antihipertensivo",
+		"indicaciones" : "Aumenta la cantidad de orina , ayudando a regular la presion sanguinea",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 10.1,
+		"principiosActivos": [
+			{"nombrePA" : "Hidroclorotiazida", "pesoMolecular" : 297.7, "formulaMolecular" : "C7 H8 Cl N3 O4 S2"},
+			{"nombrePA" : "Olmesartan", "pesoMolecular" : 446.5, "formulaMolecular" : "C24 H26 N6 O3"}
+		]
+	},
+	{
+		"_id" : 655449,
+		"nombreMed" : "Paidoterin",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Jarabe",
+		"formato" : "100ml",
+		"claseMedicamento" : "Descongestionante nasal",
+		"indicaciones" : "Alivar la congestion nasal",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 5.09,
+		"principiosActivos": [
+			{"NombrePA" : "Clorfenamina",
+			"pesoMolecular" : 274.79,
+			"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Difenhidramina",
+				"pesoMolecular" : 255.35,
+				"formulaMolecular" : "C17 H21 N O"},
+			{"NombrePA" : "Fenilefrina",
+			"pesoMolecular" : 167.2,
+			"formulaMolecular" : "C9 H13 N O2"}
+		]
+
+	},
+	{
+		"_id" : 655917,
+		"nombreMed" : "Yasminelle",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "3 mg x comp",
+		"claseMedicamento" : "Anticonceptivo",
+		"indicaciones" : "Evitar quedar embarazada",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 17.95,
+		"principiosActivos": [
+			{"NombrePA" : "Drospirenona",
+				"pesoMolecular" : 366.5,
+				"formulaMolecular" : "C24 H30 O3"},
+			{"NombrePA" : "Etinilestradiol",
+				"pesoMolecular" : 296.4,
+				"formulaMolecular" : "C20 H24 O2"}
+		]
+
+	},
+	{
+		"_id" : 656011,
+		"nombreMed" : "Fricold",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "10 sobres",
+		"claseMedicamento" : "Antigripal, Analgesico y Antipiretico",
+		"indicaciones" : "Aliviar la gripe, disminuir el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 6.95,
+		"principiosActivos":[
+			{"NombrePA" : "Clorfenamina",
+				"pesoMolecular" : 274.79,
+				"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Fenilefrina",
+				"pesoMolecular" : 167.2,
+				"formulaMolecular" : "C9 H13 N O2"},
+			{"NombrePA" : "Paracetamol",
+				"pesoMolecular" : 151.16,
+				"formulaMolecular" : "C8 H9 N O2"}
+		]
+	},
+	{
+		"_id" : 659700,
+		"nombreMed" : "Intergrip",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "10 sobres",
+		"claseMedicamento" : "Antigripal, Analgesico y Antipiretico",
+		"indicaciones" : "Aliviar la gripe, disminuir el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 8.51,
+		"principiosActivos": [
+			{"NombrePA" : "Cafeina",
+				"pesoMolecular" : 194.19,
+				"formulaMolecular" : "C8 H10 N4 O2"},
+			{"NombrePA" : "Clorfenamina",
+				"pesoMolecular" : 274.79,
+				"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Paracetamol",
+				"pesoMolecular" : 151.16,
+				"formulaMolecular" : "C8 H9 N O2"}
+		]
+
+	},
+
+	{
+		"_id" : 659725,
+		"nombreMed" : "Cinfamar",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "50/50 mg 4 comp",
+		"claseMedicamento" : "Mareo cinetico",
+		"indicaciones" : "Evitar nauseas y vomitos producidos por el movimiento",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 4.33,
+		"principiosActivos":[
+			{"NombrePA" : "Cafeina",
+				"pesoMolecular" : 194.19,
+				"formulaMolecular" : "C8 H10 N4 O2"},
+			{"NombrePA" : "Dimenhidrinato",
+				"pesoMolecular" : 470,
+				"formulaMolecular" : "C24 H28 Cl N5 O3"}
+		]
+
+	},
+	{
+		"_id" : 659730,
+		"nombreMed" : "Valium",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "2 mg x 30 comp",
+		"claseMedicamento" : "Ansiolitico e hipnotico",
+		"indicaciones" : "Aliviar el nerviosismo o ansiedad y facilitar el sueno",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 1.5,
+		"principiosActivos":[
+			{"NombrePA" : "Diazepan",
+				"pesoMolecular" : 284.7,
+				"formulaMolecular" : "C16 H13 N2 Cl O"}
+		]
+
+	},
+	{
+		"_id" : 659777,
+		"nombreMed" : "Aceclofenaco",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "100 mg x 20 comp",
+		"claseMedicamento" : "Analgesico, Antiinflamatorio, Antipiretico",
+		"indicaciones" : "Disminuye el dolor, la inflamacion y la fiebre",
+		"comercializacion" : 0,
+		"prescripcionMedica" : 0,
+		"pvp" : 2.83,
+		"principiosActivos": [
+			{"NombrePA" : "Aceclofenaco",
+				"pesoMolecular" : 354.2,
+				"formulaMolecular" : "C16 H13 Cl2 N O4"}
+		]
+
+	},
+	{
+		"_id" : 660286,
+		"nombreMed" : "Fluimocil Forte",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos efervescentes",
+		"formato" : "500/200mg x12 comp",
+		"claseMedicamento" : "Antigripal, Analgesico y Antipiretico",
+		"indicaciones" : "Aliviar la gripe disminuir el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 8.5,
+		"principiosActivos": [
+			{"NombrePA" : "Acetilcisteina",
+				"pesoMolecular" : 163.2,
+				"formulaMolecular" : "C5 H9 N O3 S"},
+			{"NombrePA" : "Paracetamol",
+				"pesoMolecular" : 151.16,
+				"formulaMolecular" : "C8 H9 N O2"}
+		]
+
+	},
+	{
+		"_id" : 664347,
+		"nombreMed" : "Respibien antialergico",
+		"viaAdministracion" : "Nasal",
+		"presentacion" : "Nebulizador Nasal",
+		"formato" : "Recipiente 15 ml",
+		"claseMedicamento" : "Descongestionante nasal",
+		"indicaciones" : "Alivia la congestion de la nariz facilitando la respiracion",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 6.1,
+		"principiosActivos": [
+			{"NombrePA" : "Clorfenamina",
+				"pesoMolecular" : 274.79,
+				"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Oximetazolina",
+				"pesoMolecular" : 260.375,
+				"formulaMolecular" : "C16 H24 N2 O"}
+		]
+
+	},
+	{
+		"_id" : 669887,
+		"nombreMed" : "Futox",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Jarabe",
+		"formato" : "200ml",
+		"claseMedicamento" : "Antitusigeno",
+		"indicaciones" : "Calmar la tos",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 6.8,
+		"principiosActivos": [
+			{"NombrePA" : "Cloperastina",
+				"pesoMolecular" : 329.9,
+				"formulaMolecular" : "C20 H24 Cl N O"}
+		]
+
+	},
+	{
+		"_id" : 672527,
+		"nombreMed" : "Ultiva",
+		"viaAdministracion" : "Intravenosa",
+		"presentacion" : "Viales",
+		"formato" : "3 ml x 5 viales",
+		"claseMedicamento" : "Anestesico general",
+		"indicaciones" : "Anestesiar en intervenciones quirurjicas",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 48.24,
+		"principiosActivos": [
+			{"NombrePA" : "Remifentanilo",
+				"pesoMolecular" : 376.4,
+				"formulaMolecular" : "C20 H28 N2 O5"}
+		]
+
+	},
+	{
+		"_id" : 677276,
+		"nombreMed" : "Manidipino",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "20 mg x 28 comp",
+		"claseMedicamento" : "Vasodilatador coronario, Antihipertensivo",
+		"indicaciones" : "Dilatar los vasos sanguineos",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 14.17,
+		"principiosActivos": [
+			{"NombrePA" : "Manidipino",
+				"pesoMolecular" : 610.7,
+				"formulaMolecular" : "C35 H38 N4 O6"}
+		]
+
+	},
+	{
+		"_id" : 677765,
+		"nombreMed" : "Nimbex",
+		"viaAdministracion" : "Intravenosa",
+		"presentacion" : "Ampollas",
+		"formato" : "2mg x 5 ampollas",
+		"claseMedicamento" : "Curares endovenosos",
+		"indicaciones" : "Facilita intubaciones y relaja los musculos en anestesias generales",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 237.71,
+		"principiosActivos": [
+			{"NombrePA" : "Besilato De Cisatracurio",
+				"pesoMolecular" : 1243.5,
+				"formulaMolecular" : "C65 H82 N2 O18 S2"}
+		]
+
+	},
+	{
+		"_id" : 681726,
+		"nombreMed" : "Abelcet",
+		"viaAdministracion" : "Intravenosa",
+		"presentacion" : "Viales",
+		"formato" : "10 viales 20 ml",
+		"claseMedicamento" : "Antibiotico",
+		"indicaciones" : "Tratar infecciones producidas por hongos",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 516.16,
+		"principiosActivos": [
+			{"NombrePA" : "Amfotericina B",
+				"pesoMolecular" : 924.1,
+				"formulaMolecular" : "C47 H73 N O17"}
+		]
+
+	},
+	{
+		"_id" : 681817,
+		"nombreMed" : "Frenadol Forte",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "10 sobres",
+		"claseMedicamento" : "Analgesico, Antigripal y Antipiretico",
+		"indicaciones" : "Aliviar la gripe, disminuir el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 4.95,
+		"principiosActivos": [
+			{"NombrePA" : "Clorfenamina",
+			"pesoMolecular" : 274.79,
+			"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Dextrometorfano",
+			"pesoMolecular" : 271.4,
+			"formulaMolecular" : "C18 H25 N O"},
+			{"NombrePA" : "Paracetamol",
+			"pesoMolecular" : 151.16,
+			"formulaMolecular" : "C8 H9 N O2"}
+		]
+	},
+	{
+		"_id" : 702151,
+		"nombreMed" : "Couldina con paracetamol",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos efervescentes",
+		"formato" : "650 mg x 20 comp",
+		"claseMedicamento" : "Antigripal",
+		"indicaciones" : "Aliviar la gripe disminuir el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 10.51,
+		"principiosActivos": [
+			{"NombrePA" : "Clorfenamina",
+			"pesoMolecular" : 274.79,
+			"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Fenilefrina",
+			"pesoMolecular" : 167.2,
+			"formulaMolecular" : "C9 H13 N O2"},
+			{"NombrePA" : "Paracetamol",
+			"pesoMolecular" : 151.16,
+			"formulaMolecular" : "C8 H9 N O2"}
+		]
+	},
+	{
+		"_id" : 703223,
+		"nombreMed" : "Alergical",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Jarabe",
+		"formato" : "150ml", 
+		"claseMedicamento" : "Antigripal, Analgesico y Antipiretico", 
+		"indicaciones" : "Aliviar la gripe, disminuir el dolor y la fiebre", 
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 7.34,
+		"principiosActivos": [
+			{"NombrePA" : "Clorfenamina",
+			"pesoMolecular" : 274.79,
+			"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Diprofilina",
+			"pesoMolecular" : 254.24,
+			"formulaMolecular" : "C10 H14 N4 O4"},
+			{"NombrePA" : "Guaifenesina",
+			"pesoMolecular" : 198.22,
+			"formulaMolecular" : "C10 H14 O4"},
+			{"NombrePA" : "Paracetamol",
+			"pesoMolecular" : 151.16,
+			"formulaMolecular" : "C8 H9 N O2"}
+		]
+	},
+	{
+		"_id" : 711033,
+		"nombreMed" : "Enanplus",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos recubiertos",
+		"formato" : "(75mg / 25mg) x 20 comp",
+		"claseMedicamento" : "Analgesico",
+		"indicaciones" : "Aliviar el dolor",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 7.1,
+		"principiosActivos": [
+			{"NombrePA" : "Dexketopofreno",
+			"pesoMolecular" : 254.28,
+			"formulaMolecular" : "C16 H14 O3"},
+			{"NombrePA" : "Tramadol",
+			"pesoMolecular" : 263.38,
+			"formulaMolecular" : "C16 H25 N O2"}
+		]
+	},
+	{
+		"_id" : 712072,
+		"nombreMed" : "Zepatier",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "(50mg / 100 mg) x 28 comp",
+		"claseMedicamento" : "Antiviral",
+		"indicaciones" : "Tratar la infeccion producida por el virus de la hepatitis C",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 220.1,
+		"principiosActivos": [
+			{"NombrePA" : "Elbasvir",
+			"pesoMolecular" : 882.015,
+			"formulaMolecular" : "C49 H55 N9 O7"},
+			{"NombrePA" : "Grazoprevir",
+			"pesoMolecular" : 766.9,
+			"formulaMolecular" : "C38 H50 N6 O9 S"}
+		]
+	},
+	{
+		"_id" : 714852,
+		"nombreMed" : "Carevalan",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos recubiertos",
+		"formato" : "(12.5mg / 5mg) x 56 comp",
+		"claseMedicamento" : "Antianginoso y antiarritmico",
+		"indicaciones" : "Previene la angina de pecho y regula el ritmo del corazon",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 15.87,
+		"principiosActivos": [
+			{"NombrePA" : "Carvedilol",
+			"pesoMolecular" : 406.474,
+			"formulaMolecular" : "C24 H26 N2 O4"},
+			{"NombrePA" : "Ivabradina",
+			"pesoMolecular" : 468.585,
+			"formulaMolecular" : "C27 H36 N2 O5"}
+		]
+	},
+	{
+		"_id" : 741512,
+		"nombreMed" : "Algidol",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "(650 mg / 10 mg / 500 mg) x 12 sobres",
+		"claseMedicamento" : "Analgesico y antipiretico",
+		"indicaciones" : "Aliviar el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 3.12,
+		"principiosActivos": [
+			{"NombrePA" : "Codeina",
+			"pesoMolecular" : 299.364,
+			"formulaMolecular" : "C18 H21 N O3"},
+			{"NombrePA" : "Paracetamol",
+			"pesoMolecular" : 151.16,
+			"formulaMolecular" : "C8 H9 N O2"}
+		]
+	},
+	{
+		"_id" : 766824,
+		"nombreMed" : "Hadensa",
+		"viaAdministracion" : "Rectal",
+		"presentacion" : "Supositorios",
+		"formato" : "10 supositorios",
+		"claseMedicamento" : "Antihemorroidal",
+		"indicaciones" : "Curar las hemorroides",
+		"comercializacion" : 0,
+		"prescripcionMedica" : 0,
+		"pvp" : 5.76,
+		"principiosActivos": [
+			{"NombrePA" : "Clorocarvacrol",
+			"pesoMolecular" : 184.66,
+			"formulaMolecular" : "C10 H13 Cl O"},
+			{"NombrePA" : "Ictamol",
+			"pesoMolecular" : 588,
+			"formulaMolecular" : "C28 H36 S5 O6 (NH4)2"},
+			{"NombrePA" : "Mentol",
+			"pesoMolecular" : 156.26,
+			"formulaMolecular" : "C10 H20 O"}
+		]
+	},
+	{
+		"_id" : 825992,
+		"nombreMed" : "Dolorac",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "600mg x 20 sob",
+		"claseMedicamento" : "Analgesico, Antiinflamatorio, Antipiretico y Antirreumetico",
+		"indicaciones" : "Disminuye el dolor, la inflamacion, la fiebre y reuma",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 7.24,
+		"principiosActivos": [
+			{"NombrePA" : "Ibuprofeno",
+			"pesoMolecular" : 206.29,
+			"formulaMolecular" : "C13 H18 O2"}
+		]
+	},
+	{
+		"_id" : 839720,
+		"nombreMed" : "Gelocatil",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Sobres",
+		"formato" : "10 Sobres",
+		"claseMedicamento" : "Antigripal, Antianalgesico y Antipiretico",
+		"indicaciones" : "Aliviar la gripe y para disminuir el dolor y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 4.95,
+		"principiosActivos": [
+			{"NombrePA" : "Clorfenamina",
+			"pesoMolecular" : 274.79,
+			"formulaMolecular" : "C16 H19 Cl N2"},
+			{"NombrePA" : "Paracetamol",
+			"pesoMolecular" : 151.16,
+			"formulaMolecular" : "C8 H9 N O2"}
+		]
+	},
+	{
+		"_id" : 851568,
+		"nombreMed" : "Dalacin",
+		"viaAdministracion" : "Vaginal",
+		"presentacion" : "Comprimido Vaginal",
+		"formato" : "100 mg x 3 ovulos",
+		"claseMedicamento" : "Antiinfeccioso genitourinario",
+		"indicaciones" : "Tratar infecciones de los organos sexuales",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 12.96,
+		"principiosActivos": [
+			{"NombrePA" : "Clindamicina",
+			"pesoMolecular" : 425,
+			"formulaMolecular" : "C18 H33 Cl N2 O5 S"}
+		]
+	},
+	{
+		"_id" : 854976,
+		"nombreMed" : "Xylonor",
+		"viaAdministracion" : "Topica",
+		"presentacion" : "Spray topico",
+		"formato" : "60ml Aerosol",
+		"claseMedicamento" : "Anestesico local",
+		"indicaciones" : "Dormir zonas determinadas",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 26.02,
+		"principiosActivos": [
+			{"NombrePA" : "Cetrimonio",
+			"pesoMolecular" : 364.4,
+			"formulaMolecular" : "C19 H42 BrN"},
+			{"NombrePA" : "Lidocaina",
+			"pesoMolecular" : 270.8,
+			"formulaMolecular" : "C14 H23 Cl N2 O"}
+		]
+	},
+	{
+		"_id" : 884858,
+		"nombreMed" : "Ulcesep",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Capsulas",
+		"formato" : "28 capsulas",
+		"claseMedicamento" : "Antiulceroso",
+		"indicaciones" : "Tratar las ulceras gastrointestinales",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 2.42,
+		"principiosActivos": [
+			{"NombrePA" : "Omeprazol",
+			"pesoMolecular" : 345.4,
+			"formulaMolecular" : "C17 H19 N3 O3 S"}
+		]
+	},
+	{
+		"_id" : 961763,
+		"nombreMed" : "Yurelax",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Capsulas",
+		"formato" : "30 capsulas",
+		"claseMedicamento" : "Miorrelajante",
+		"indicaciones" : "Relajar el musculo y aliviar espasmos",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 3.48,
+		"principiosActivos": [
+			{"NombrePA" : "Ciclobenzaprina",
+			"pesoMolecular" : 275.4,
+			"formulaMolecular" : "C20 H21 N"}
+		]
+	},
+	{
+		"_id" : 993667,
+		"nombreMed" : "Hemicraneal",
+		"viaAdministracion" : "Rectal",
+		"presentacion" : "Supositorios",
+		"formato" : "10 supositorios",
+		"claseMedicamento" : "Antimigranoso",
+		"indicaciones" : "Aliviar los ataques de jaqueca o migrana",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 3.53,
+		"principiosActivos": [
+			{"NombrePA" : "Cafeina",
+			"pesoMolecular" : 194.19,
+			"formulaMolecular" : "C8 H10 N4 O2"},
+			{"NombrePA" : "Ergotamina",
+			"pesoMolecular" : 581.7,
+			"formulaMolecular" : "C33 H35 N5 O5"}
+		]
+	},
+	{
+		"codigoNacional" : 971671,
+		"nombreMed" : "Xazal",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Comprimidos",
+		"formato" : "5 mg x 20 comprimidos",
+		"claseMedicamento" : "Antihistaminico",
+		"indicaciones" : "Tratar ciertos tipos de alergias",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 1,
+		"pvp" : 5.9,
+		"principiosActivos": [
+			{"NombrePA" : "Levocetrizina",
+			"pesoMolecular" : 388.9,
+			"formulaMolecular" : "C21 H25 CIN2 O3"}
+		]	
+	},
+	{
+		"codigoNacional" : 660782,
+		"nombreMed" : "Dalsy",
+		"viaAdministracion" : "Oral",
+		"presentacion" : "Suspension",
+		"formato" : "Suspension 150 ml",
+		"claseMedicamento" : "Analgesico, Antiinflamatorio, Antipiretico",
+		"indicaciones" : "Disminuye el dolor, la inflamacion y la fiebre",
+		"comercializacion" : 1,
+		"prescripcionMedica" : 0,
+		"pvp" : 7.7,
+		"principiosActivos": [
+			{"NombrePA" : "Ibuprofeno",
+			"pesoMolecular" : 206.29,
+			"formulaMolecular" : "C13 H18 O2"}
+		]
+	}
+	
+]
+
+
+
+	
